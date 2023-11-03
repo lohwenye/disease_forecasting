@@ -14,25 +14,11 @@ Only PM2.5 and PM10 exhibit significant peaks due to seasonal haze pollution wit
 
 **Models**
 
-Naive
-Linear Regression
-Ridge Regression
-LASSO
-Elastic Net
-Random Forest
-Gradient Boost
-k-Nearest Neighbours
-Mean
-Median
-Weighted-Mean with Expanding Window
-Weighted-Mean with Rolling Window
-Second-Order Linear Regression
-Second-Order Ridge
-Second-Order LASSO
-Second-Order Elastic Net
-Second-Order Random Forest
-Second-Order Gradient Boost
-Second-Order k-Nearest Neighbours
+First Order: Naive, Linear Regression, Ridge Regression, LASSO, Elastic Net, Random Forest, Gradient Boost, k-Nearest Neighbours
+
+Combination: Mean, Median, Weighted-Mean with Expanding Window, Weighted-Mean with Rolling Window
+
+Second-Order: Linear Regression, Ridge, LASSO, Elastic Net, Random Forest, Gradient Boost, k-Nearest Neighbours
 
 **Error Metrics**
 
